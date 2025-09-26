@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.contact-card {
+    background-color: #d1d9e6;
+    border-radius: 0;
+    border: none;
+    width: 80%; /* Largura padrão para telas maiores */
+    max-width: 600px; /* Largura máxima para notebooks e desktops */
+}
+
+/* Ajustes para telas menores (mobile) */
+@media (max-width: 768px) {
+    .contact-card {
+        width: 95%; /* Ocupa quase toda a largura em telas pequenas */
+        padding: 2rem !important; /* Diminui o preenchimento para não ficar apertado */
+    }
+}
+
+.form-control {
+    border-radius: 0;
+    border: none;
+    background-color: #f0f2f5;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #6c757d;
+}
+
+.btn-primary {
+    background-color: #6c757d;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #495057;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
